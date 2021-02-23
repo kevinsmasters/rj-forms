@@ -24,6 +24,13 @@ function App() {
       name: event.target.name,
       value: event.target.value,
     });
+
+    // pass status of checkbox instead of set value
+   //  const isCheckbox = event.target.type === 'checkbox';
+   // setFormData({
+   //   name: event.target.name,
+   //   value: isCheckbox ? event.target.checked : event.target.value,
+   // })
   }
 
 
